@@ -58,13 +58,11 @@ p {
 a {
   text-decoration: none;
 }
-
 li {
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 26px;
 }
-
 .navmenu {
   display: -webkit-box;
   display: -webkit-flex;
@@ -166,6 +164,7 @@ li {
   justify-content: space-between;
 }
 
+
 .benefits-grid {
   grid-auto-columns: 260fr;
   grid-auto-rows: 60px;
@@ -198,6 +197,7 @@ li {
   width: 810px;
   color: #fff;
 }
+
 
 .text-center {
   text-align: center;
@@ -713,7 +713,7 @@ li {
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
 }
-
+  
 .section.who {
   padding-top: 80px;
   padding-bottom: 80px;
