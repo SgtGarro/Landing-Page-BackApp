@@ -15,61 +15,54 @@ body {
 }
 
 h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 72px;
   line-height: 98px;
   font-weight: 800;
 }
 
 h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 48px;
   line-height: 64px;
   font-weight: 800;
 }
 
 h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 40px;
   line-height: 54px;
   font-weight: 800;
 }
 
 h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 28px;
   line-height: 40px;
   font-weight: 700;
 }
 
 h5 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 24px;
   line-height: 32px;
   font-weight: 600;
 }
 
 h6 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
 }
 
 p {
-  margin-bottom: 0px;
   font-size: 16px;
   line-height: 26px;
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .navmenu {
@@ -206,11 +199,7 @@ a {
   color: #fff;
 }
 
-.prod-title {
-  text-align: center;
-}
-
-.feature-title {
+.text-center {
   text-align: center;
 }
 
@@ -410,11 +399,10 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  grid-row-gap: 20px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .purpose-text {
@@ -431,19 +419,6 @@ a {
   grid-template-columns: 595px 595px;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-}
-
-.mvv-title {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.mvv-desc {
-  width: 810px;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-left: auto;
-  text-align: center;
 }
 
 .mvv-point {
@@ -482,8 +457,26 @@ a {
 }
 
 .card-pln {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 400px;
   padding: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-row-gap: 10px;
   border-radius: 15px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
 }
@@ -808,6 +801,11 @@ a {
     line-height: 20px;
   }
 
+  li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
   .icon {
     color: #fff;
   }
@@ -908,6 +906,27 @@ a {
 
   .mvv-points {
     margin-top: 50px;
+  }
+
+  .card-pln {
+    width: 320px;
+  }
+
+  .plans-card {
+    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
 
   .media {
