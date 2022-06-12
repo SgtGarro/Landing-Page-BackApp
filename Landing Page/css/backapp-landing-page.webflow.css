@@ -497,6 +497,10 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   grid-column-gap: 20px;
   color: #fff;
 }
@@ -572,6 +576,10 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   grid-column-gap: 50px;
 }
 
@@ -617,6 +625,13 @@ li {
   display: -ms-flexbox;
   display: flex;
   grid-column-gap: 50px;
+}
+
+.container.cont-saf-intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .sect-marg {
@@ -693,6 +708,12 @@ li {
   background-color: #f5f5f5;
 }
 
+.section.presentation {
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.78)), url('../images/unsplash_i35mOsE0z2U.png');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
 .section.who {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -767,6 +788,25 @@ li {
   text-align: center;
 }
 
+.saferi-pres {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #576470;
+  color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 40px;
@@ -804,6 +844,11 @@ li {
   li {
     font-size: 12px;
     line-height: 20px;
+  }
+
+  .navbar.header-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .icon {
@@ -1051,14 +1096,18 @@ li {
     grid-row-gap: 20px;
   }
 
-  .size-50 {
-    width: 70%;
+  .size-36 {
+    max-width: 36%;
   }
 
   .mvv-intro {
     width: auto;
     margin-bottom: 30px;
     grid-row-gap: 10px;
+  }
+
+  .saferi-pres {
+    padding: 15px;
   }
 }
 
