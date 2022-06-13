@@ -58,11 +58,13 @@ p {
 a {
   text-decoration: none;
 }
+
 li {
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 26px;
 }
+
 .navmenu {
   display: -webkit-box;
   display: -webkit-flex;
@@ -164,7 +166,6 @@ li {
   justify-content: space-between;
 }
 
-
 .benefits-grid {
   grid-auto-columns: 260fr;
   grid-auto-rows: 60px;
@@ -198,7 +199,6 @@ li {
   color: #fff;
 }
 
-
 .text-center {
   text-align: center;
 }
@@ -214,7 +214,7 @@ li {
 .slide-mask {
   overflow: visible;
   width: 280px;
-  height: 485px;
+  height: 480px;
 }
 
 .feature-slider {
@@ -683,10 +683,6 @@ li {
 }
 
 .integrant-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
@@ -695,7 +691,6 @@ li {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  grid-row-gap: 20px;
 }
 
 .slide-nav-3 {
@@ -713,7 +708,7 @@ li {
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
 }
-  
+
 .section.who {
   padding-top: 80px;
   padding-bottom: 80px;
